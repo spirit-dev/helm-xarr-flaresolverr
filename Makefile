@@ -10,7 +10,7 @@ pod := $$(kubectl get pods -n ${NAMESPACE} |  grep -m1 ${RELEASE_NAME} | cut -d'
 # Current dir
 CURRENT_DIR = $(shell pwd)
 HELM_CHART_DIR = ${CURRENT_DIR}
-HELM_OFFICIAL_CHART = https://charts.truecharts.org/
+HELM_OFFICIAL_CHART = https://k8s-at-home.com/charts/
 
 # HELM
 HELM_BIN ?= helm
