@@ -2,14 +2,14 @@
 
 # Service
 NAMESPACE = transmission
-RELEASE_NAME = flaresolverr
+RELEASE_NAME = flaresolverr-turingpi
 # ENV ?= ### Specify the env to use
 ENV = turingpi
 pod := $$(kubectl get pods -n ${NAMESPACE} |  grep -m1 ${RELEASE_NAME} | cut -d' ' -f1)
 
 # Current dir
 CURRENT_DIR = $(shell pwd)
-HELM_CHART_DIR = ${CURRENT_DIR}
+HELM_CHART_DIR = ${CURRENT_DIR}/helm
 HELM_OFFICIAL_CHART = https://k8s-at-home.com/charts/
 
 # HELM
