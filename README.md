@@ -1,5 +1,7 @@
 # Welcome to flaresolverr
 
+[![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=flaresolverr-turingpi&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/flaresolverr-turingpi)
+
 ## Table of content
 
 - [Welcome to flaresolverr](#welcome-to-flaresolverr)
