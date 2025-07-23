@@ -1,10 +1,14 @@
-# Welcome to flaresolverr
+# flaresolverr
 
+[![GitLab Sync](https://img.shields.io/badge/gitlab_sync-flaresolverr-blue?style=for-the-badge&logo=gitlab)](https://gitlab-internal.spirit-dev.net/github-mirror/helm-xarr-flaresolverr) <!-- markdownlint-disable MD041 -->
+[![GitHub Mirror](https://img.shields.io/badge/github_mirror-flaresolverr-blue?style=for-the-badge&logo=github)](https://github.com/spirit-dev/helm-xarr-flaresolverr)
 [![App Status](https://argocd-internal.spirit-dev.net/api/badge?name=flaresolverr-turingpi&revision=true&showAppName=true)](https://argocd-internal.spirit-dev.net/applications/flaresolverr-turingpi)
 
-## Table of content
+<!--TOC-->
 
-[[_TOC_]]
+- [Installation process](#installation-process)
+
+<!--TOC-->
 
 ## Installation process
 
