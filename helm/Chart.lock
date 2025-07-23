@@ -1,0 +1,6 @@
+dependencies:
+- name: flaresolverr
+  repository: https://k8s-at-home.com/charts/
+  version: 5.4.2
+digest: sha256:f56f248185a981e5644c717a3cbdf2d1945db6d4802f0aefc1b28357158f7e8e
+generated: "2023-08-08T11:44:59.435016447-04:00"
